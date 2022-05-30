@@ -4,7 +4,7 @@
  * @Author: congsir
  * @Date: 2022-05-28 16:36:45
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-29 09:53:45
+ * @LastEditTime: 2022-05-30 14:19:58
  */
 // 输入账号
 let enterLoginNumber = new verification("txtLoginId", async function (val) {
@@ -58,7 +58,7 @@ sumbit.onsubmit = async function (e) {
         // console.log(data);
        let response= await register(data)
     //    console.log(response);
-    location.href = "/login.html"
+    location.href = "./login.html"
        
         
         

@@ -4,7 +4,7 @@
  * @Author: congsir
  * @Date: 2022-05-29 13:32:01
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-29 16:51:41
+ * @LastEditTime: 2022-05-30 14:19:46
  */
 // 第一步判断是否有登录
 (async function () {
@@ -39,7 +39,7 @@
     // 注册关闭事件函数
     doms.close.onclick = async function (e) {
         let data = await logOut();
-        location.href = "/login.html"
+        location.href = "./login.html"
     }
 
     function scrollFn() {
