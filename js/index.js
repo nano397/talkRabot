@@ -4,7 +4,7 @@
  * @Author: congsir
  * @Date: 2022-05-29 13:32:01
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-30 14:31:38
+ * @LastEditTime: 2022-05-30 14:37:47
  */
 // 第一步判断是否有登录
 (async function () {
@@ -14,7 +14,7 @@
         // 如果不等于0的话就代表没有登录;如果没有登录的话，那么就告诉用户没有登录，再跳转到登录页面
         alert("未登录，或登录已过期")
         // console.log('我没有登录');
-        location.href = "/login.html"
+        location.href =baseURL+ "/login.html"
         return;
 
     }
