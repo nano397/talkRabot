@@ -4,7 +4,7 @@
  * @Author: congsir
  * @Date: 2022-05-28 17:35:24
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-29 13:56:10
+ * @LastEditTime: 2022-05-30 14:31:16
  */
 // 获取单个元素
 function $ (id){
@@ -18,3 +18,5 @@ function $$ (value){
 function $$$(targetElem){
     return document.createElement(targetElem)
 }
+
+let baseURL = "/talkRabot"
